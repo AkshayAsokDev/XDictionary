@@ -36,6 +36,7 @@ function App() {
       <h1>Dictionary App</h1>
 
       <input placeholder='Search for a word...' 
+      type='text'
       value={search}
       onChange={(e) => setSearch(e.target.value)}
       />
